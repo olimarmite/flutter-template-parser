@@ -9,7 +9,7 @@ You just need to add `template_parser` as a [dependency in your pubspec.yaml fil
 
 ```yaml
 dependencies:
-  template_parser: ^0.0.1
+  template_parser: ^0.0.2
 ```
 
 ## Example
@@ -46,25 +46,26 @@ value |  Value of the template variable | Sodipto Saha
 
 >Note: `{{}}` is required for template rendering.
 </br>
-{{}} :x:
+{{}} ❌
 </br>
-{Variable} :x:
+{Variable} ❌
 </br>
-{Variable :x:
+{Variable ❌
 </br>
-{Variable}} :x:
+{Variable}} ❌
 </br>
-{{Variable} :x:
+{{Variable} ❌
 </br>
-{{Variable}} :heavy_check_mark:
+{{Variable}} ✔️
 </br>
-{{ Variable }} :heavy_check_mark:
+{{ Variable }} ✔️
 </br>
-{{variable }} :heavy_check_mark:
+{{variable }} ✔️
 </br>
-{{ variable}} :heavy_check_mark:
+{{ variable}} ✔️
 </br>
-{{ variable variable }} :heavy_check_mark:
+{{ variable variable }} ✔️
+
 
 ## Features and bugs
 
