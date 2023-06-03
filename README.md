@@ -45,15 +45,26 @@ value |  Value of the template variable | Sodipto Saha
 ## Warning 
 
 >Note: `{{}}` is required for template rendering.
-{Variable} `Wrong`
-{Variable `Wrong`
-{Variable}} `Wrong`
-{{Variable} `Wrong`
-{{Variable}} ✔️
-{{ Variable }} ✔️
-{{variable }} ✔️
-{{ variable}} ✔️
-{{ variable variable}} ✔️
+</br>
+{{}} :x:
+</br>
+{Variable} :x:
+</br>
+{Variable :x:
+</br>
+{Variable}} :x:
+</br>
+{{Variable} :x:
+</br>
+{{Variable}} :heavy_check_mark:
+</br>
+{{ Variable }} :heavy_check_mark:
+</br>
+{{variable }} :heavy_check_mark:
+</br>
+{{ variable}} :heavy_check_mark:
+</br>
+{{ variable variable }} :heavy_check_mark:
 
 ## Features and bugs
 
